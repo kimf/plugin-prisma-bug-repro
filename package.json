@@ -27,7 +27,7 @@
     "postinstall": "mkdir -p \"$PWD/../@types/nexus-plugin-prisma\" && cp \"$PWD/global-type.d.ts\" \"$PWD/../@types/nexus-plugin-prisma/index.d.ts\""
   },
   "peerDependencies": {
-    "nexus-future": "^0.10.0 || ^0.11.0"
+    "nexus-future": "0.11.2-next.3"
   },
   "husky": {
     "hooks": {
@@ -46,7 +46,7 @@
     "@types/prismjs": "1.16.0",
     "dripip": "0.8.0",
     "husky": "4.2.3",
-    "nexus-future": "0.11.0",
+    "nexus-future": "0.11.2-next.3",
     "node-fetch": "2.6.0",
     "node-pty": "0.9.0",
     "prettier": "1.19.1",
